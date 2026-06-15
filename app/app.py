@@ -7,6 +7,8 @@ from prophet import Prophet
 import warnings
 warnings.filterwarnings('ignore')
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
     page_title="Pakistan Food Price Early Warning System",
@@ -17,15 +19,15 @@ st.set_page_config(
 # ── Load data ─────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/processed/punjab_food_prices_features.csv', parse_dates=['date'])
-    results = pd.read_csv('../outputs/model_comparison.csv')
+    df = pd.read_csv(os.path.join(BASE_DIR, 'data', 'processed', 'punjab_food_prices_features.csv'), parse_dates=['date'])
+    results = pd.read_csv(os.path.join(BASE_DIR, 'outputs', 'model_comparison.csv'))
     return df, results
 
 @st.cache_resource
 def load_models():
-    wheat_model = joblib.load('../models/wheat_random_forest.pkl')
-    rice_model = joblib.load('../models/rice_prophet.pkl')
-    sugar_model = joblib.load('../models/sugar_prophet.pkl')
+    wheat_model = joblib.load(os.path.join(BASE_DIR, 'models', 'wheat_random_forest.pkl'))
+    rice_model = joblib.load(os.path.join(BASE_DIR, 'models', 'rice_prophet.pkl'))
+    sugar_model = joblib.load(os.path.join(BASE_DIR, 'models', 'sugar_prophet.pkl'))
     return wheat_model, rice_model, sugar_model
 
 df, results = load_data()
