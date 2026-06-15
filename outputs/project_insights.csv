@@ -1,0 +1,11 @@
+Finding,Detail
+Most shock-prone commodity,Sugar — 8 price shocks above 5% threshold (2013-2021)
+Most violent single shock,Wheat — +22.8% in June 2020 (COVID + drought compounded)
+Most stable commodity,Rice — only 1 shock in 8 years
+Highest risk month - Wheat,July — post-harvest stock depletion
+Highest risk month - Rice,February — seasonal supply tightening
+Highest risk month - Sugar,August — post-crushing season demand peak
+COVID wheat shock rainfall context,Rainfall below 20mm during worst wheat spike — drought compounded COVID shock
+Best model - Wheat,Random Forest — MAE 2.08 PKR/kg
+Best model - Rice,Prophet — MAE 4.39 PKR/kg
+Best model - Sugar,Prophet — MAE 3.23 PKR/kg

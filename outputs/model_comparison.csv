@@ -1,0 +1,13 @@
+Commodity,Model,MAE (PKR/kg),RMSE (PKR/kg)
+Wheat,Linear Regression,4.72,5.41
+Wheat,Random Forest,2.08,2.59
+Wheat,XGBoost,2.17,2.63
+Rice,Linear Regression,4.88,5.98
+Rice,Random Forest,5.18,5.92
+Rice,XGBoost,5.45,6.2
+Sugar,Linear Regression,4.38,5.12
+Sugar,Random Forest,7.01,7.84
+Sugar,XGBoost,7.1,8.03
+Wheat,Prophet,4.14,6.13
+Rice,Prophet,4.39,5.25
+Sugar,Prophet,3.23,3.87
