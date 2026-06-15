@@ -192,11 +192,12 @@ streamlit run app.py
 
 ## 👤 About
 
-Built by **[Your Name]** as a portfolio project during final year of BSc Data Science.
+Built by **Muhammad Umar** as a portfolio project during final year of BSc Data Science.
 
 The motivation is personal — food price volatility in Pakistan directly affects millions of households. This project attempts to give data-driven visibility to a problem that is usually only noticed after a crisis has already hit.
 
-📧 [your.email@gmail.com] · 🔗 [LinkedIn] · 💻 [GitHub]
+📧 [umerhashmi898@gmail.com] · 🔗 [
+www.linkedin.com/in/muhammad-umar-usman-hashmi-4a34002b8] · 💻 [Hashmi-78]
 
 ---
 
