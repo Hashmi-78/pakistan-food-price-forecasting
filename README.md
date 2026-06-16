@@ -125,7 +125,7 @@ pakistan-food-price-forecasting/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/pakistan-food-price-forecasting.git
+git clone https://github.com/Hashmi-78/pakistan-food-price-forecasting.git
 cd pakistan-food-price-forecasting
 ```
 
